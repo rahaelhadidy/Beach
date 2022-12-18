@@ -1,0 +1,124 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+
+/*-------------------------------------------------header_section---------------------------------------*/
+
+#home
+{
+    background-image: url('ASSESTS/media/images/large_images/beachshow\ \(1\).jpg');
+    background-size: cover;
+    background-position: 60% 80%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.container
+{
+    width: 100%;
+    margin: auto;
+    font-size: small;
+}
+
+.head
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.head-desc
+{
+    color: #852;
+}
+
+.head-button
+{
+    padding-top: 7px;
+}
+
+.head-button button
+{
+    border: none;
+    padding: 8px;
+    border: 1px solid #852;
+    border-radius: 5px;
+    color: #852;
+}
+
+/*---------------------------------------------------section_one--------------------------------------*/
+
+#home-desc-one
+{
+    background-color: #852;
+    text-align: center;
+    color: #edb;
+    padding: 1.31em;
+}
+
+/*---------------------------------------------------section_two--------------------------------*/
+
+#home-desc-two
+{
+    background-color: #edb;
+    text-align: center;
+    color: #852;
+    padding: 1.31em;
+}
+
+/*-------------------------------------------------section_three------------------------------------------*/
+
+.home-desc-three-content
+{
+    display: flex;
+    text-align: center;
+}
+
+.item
+{
+    width: 33.33%;
+    padding: 1.31em;
+}
+
+@media all and (max-width:600px)
+{
+    #home
+    {
+        background-image: url('ASSESTS/media/images/large_images/beachshow\ \(1\).jpg');
+        background-size: cover;
+        background-position: 60% 80%;
+        height: 30vh;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+
+    #home h1
+    {
+        font-size: 1.2em;
+    }
+
+     p, .btn
+    {
+        font-size: 0.8em;
+    }
+
+    #home-desc-one,
+    #home-desc-two,
+    .item
+    {
+        padding: 1.12em;
+    }
+    
+}
